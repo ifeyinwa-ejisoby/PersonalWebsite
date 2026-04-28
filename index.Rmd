@@ -11,7 +11,7 @@ title: "Who Am I?"
 knitr::include_graphics("images/website-image-2.jpg")
 ```
 
-Aspiring statistician and data scientist!
+Aspiring biostatistician and data scientist!
 :::
 
 ::: {.column width="60%" style="text-align:left;"}
