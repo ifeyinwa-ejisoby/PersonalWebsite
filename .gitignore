@@ -3,3 +3,4 @@
 files/*.docx
 docs/files/*.docx
 .Rproj.user
+.Rhistory
