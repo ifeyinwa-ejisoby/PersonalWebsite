@@ -11,12 +11,12 @@
 
 
 
-<title>About This Website</title>
+<title>Projects</title>
 
 <script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -32,6 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -58,6 +60,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="style.css" type="text/css" />
 
 
 
@@ -238,19 +241,45 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">My Website</a>
+      <a class="navbar-brand" href="index.html">Ifeyinwa's Website</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="index.html">
+    <span class="fa fa-house-user"></span>
+     
+    Home
+  </a>
 </li>
 <li>
-  <a href="about.html">About</a>
+  <a href="projects.html">
+    <span class="fa fa-folder-open"></span>
+     
+    Projects
+  </a>
+</li>
+<li>
+  <a href="files/resume_042726.pdf">
+    <span class="fa fa-sim-card"></span>
+     
+    Resume
+  </a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://www.linkedin.com/in/ifeyinwa-ejisoby-nwosu-b84b92271/">
+    <span class="fa fa-linkedin"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/ifeyinwa-ejisoby">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -260,12 +289,62 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About This Website</h1>
+<h1 class="title toc-ignore">Projects</h1>
 
 </div>
 
 
-<p>More about this website.</p>
+<div class="columns">
+<div class="column" style="text-align: left;">
+<div
+id="cervical-cancer-cases-mortality-and-treatment-in-the-united-states"
+class="section level2">
+<h2>Cervical Cancer Cases, Mortality, and Treatment in the United
+States</h2>
+<p>This project utilizes real-world data from the National Cancer
+Database (NCDB) to perform both exploratory and statistical analyses of
+U.S. cervical cancer cases from 2004 to 2022. As an extension of my
+thesis emulating an international phase III trial of adjuvant concurrent
+chemoradiation therapy on overall survival in early stage cervical
+cancer patients, this project focuses on the regionality of both cases
+and mortality rates, mortality risk based on FIGO stage, and common
+adjuvant treatment therapies.</p>
+<p>I utilized SAS to perform initial data cleaning, R for further data
+wrangling and statistical analyses, and visualization tools like <a
+href="https://ggplot2.tidyverse.org/"><code>ggplot</code></a>, <a
+href="https://www.rdocumentation.org/packages/flexdashboard/versions/0.5.1/topics/flexdashboard"><code>flexdashboard</code></a>,
+and <a href="https://plotly.com/r/"><code>plotly</code></a> to build
+interactive figures for my dashboard, linked <a
+href="https://ifeyinwa-ejisoby.github.io/CCDashboard/">here</a>. To
+learn more about cervical cancer in the U.S. and the NCDB, or peek into
+my source code, visit my <a
+href="https://github.com/ifeyinwa-ejisoby/CCDashboard">GitHub
+repository</a>.</p>
+</div>
+</div><div class="column" style="text-align: left;">
+<div
+id="addressing-global-catastrophic-healthcare-expenditures-and-their-change-overtime"
+class="section level2">
+<h2>Addressing Global Catastrophic Healthcare Expenditures and Their
+Change Overtime</h2>
+<p>In collaboration with another biostatistics student, this project
+explores global trends in financial protection within healthcare
+systems, focusing on catastrophic health expenditures and their broader
+social impacts. It examines how these costs have evolved since 2000,
+their relationship with suicide rates and alcohol consumption, and where
+geographic disparities are most pronounced. Using a comprehensive World
+Bank–based dataset covering 217 countries, the analysis highlights how
+gaps in health financing can contribute to economic strain, long-term
+stress, and poorer mental health outcomes.</p>
+<p>Data cleaning and data visulizations were performed in Python using
+<a href="https://pandas.pydata.org/"><code>pandas</code></a>, <a
+href="https://matplotlib.org/"><code>matplotlib</code></a>, and <a
+href="https://plotly.com/python/"><code>plotly</code></a>. Explore more
+about our project <a
+href="https://github.com/khz123/catastrophic-health-expenditure">here</a>.</p>
+</div>
+</div>
+</div>
 
 
 

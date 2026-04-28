@@ -1,0 +1,72 @@
+/*** CUSTOMIZE FONT***/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: 'Inter';
+}
+
+/*** NAVBAR CUSTOMIZATION ***/
+
+/* Normal link color */
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;  /* or whatever you want */
+}
+
+/* Hover + focus */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #af42c5 !important;   /* your purple */
+  background-color: transparent !important;
+}
+
+.navbar .navbar-nav > li > a:hover {
+  color: #af42c5 !important;
+}
+
+/* Navbar title (My Website) */
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+/* Hover effect for title */
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #af42c5 !important;  /* your purple */
+}
+
+/*** CHANGE LINK COLOR ***/
+
+/* Default link color */
+a {
+  color: #af42c5;  /* pick your favorite color for links */
+  text-decoration: none;
+}
+
+/* Hover state */
+a:hover {
+  color: #a743ba;  /* pick your favorite color for links when mouse hovers */
+  text-decoration: underline;
+}
+
+/*** ALTER STYLE OF COLUMNS ***/
+
+/* Container for columns (optional spacing tweak) */
+.columns {
+  display: flex;
+  gap: 20px; /* space between columns */
+}
+
+/* Style each column like a smooth box */
+.column {
+  border: 1px solid #ddd;
+  border-radius: 12px;      /* smooth rounded corners */
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* soft shadow */
+}
+
+/* Optional: add hover effect */
+.column:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.2s ease-in-out;
+}

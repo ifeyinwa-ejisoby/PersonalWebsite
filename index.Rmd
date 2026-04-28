@@ -1,9 +1,29 @@
 ---
-title: "My Website"
+title: "Who Am I?"
 ---
 
-Hello, Website!
+::: columns
+::: {.column width="40%" style="text-align: center;"}
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+## Ifeyinwa Ejisoby-Nwosu
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+```{r, echo=FALSE, fig.align='center', out.width='70%'}
+knitr::include_graphics("images/website-image-2.jpg")
+```
+
+Aspiring statistician and data scientist!
+:::
+
+::: {.column width="60%" style="text-align:left;"}
+
+## About Me
+
+Hi there!
+
+I am Ifeyinwa, a biostatistics student at the Rollins School of Public Health of Emory University. Throughout my graduate studies, I have worked on answering health-related questions across infectious diseases, oncology, and psychology using modern regression techniques and causal methods in R and SAS. 
+
+To learn more about my projects, visit my [projects page](https://ifeyinwa-ejisoby.github.io/PersonalWebsite/projects.html).
+
+:::
+
+

@@ -1,0 +1,24 @@
+---
+title: "Projects"
+---
+
+::: columns
+::: {.column width="50%" style="text-align: left;"}
+
+## Cervical Cancer Cases, Mortality, and Treatment in the United States
+
+This project utilizes real-world data from the National Cancer Database (NCDB) to perform both exploratory and statistical analyses of U.S. cervical cancer cases from 2004 to 2022. As an extension of my thesis emulating an international phase III trial of adjuvant concurrent chemoradiation therapy on overall survival in early stage cervical cancer patients, this project focuses on the regionality of both cases and mortality rates, mortality risk based on FIGO stage, and common adjuvant treatment therapies.
+
+I utilized SAS to perform initial data cleaning, R for further data wrangling and statistical analyses, and visualization tools like [`ggplot`](https://ggplot2.tidyverse.org/), [`flexdashboard`](https://www.rdocumentation.org/packages/flexdashboard/versions/0.5.1/topics/flexdashboard), and [`plotly`](https://plotly.com/r/) to build interactive figures for my dashboard, linked [here](https://ifeyinwa-ejisoby.github.io/CCDashboard/). To learn more about cervical cancer in the U.S. and the NCDB, or peek into my source code, visit my [GitHub repository](https://github.com/ifeyinwa-ejisoby/CCDashboard).
+
+:::
+
+::: {.column width="50%" style="text-align: left;"}
+
+## Addressing Global Catastrophic Healthcare Expenditures and Their Change Overtime
+
+In collaboration with another biostatistics student, this project explores global trends in financial protection within healthcare systems, focusing on catastrophic health expenditures and their broader social impacts. It examines how these costs have evolved since 2000, their relationship with suicide rates and alcohol consumption, and where geographic disparities are most pronounced. Using a comprehensive World Bank–based dataset covering 217 countries, the analysis highlights how gaps in health financing can contribute to economic strain, long-term stress, and poorer mental health outcomes.
+
+Data cleaning and data visulizations were performed in Python using [`pandas`](https://pandas.pydata.org/), [`matplotlib`](https://matplotlib.org/), and [`plotly`](https://plotly.com/python/). Explore more about our project [here](https://github.com/khz123/catastrophic-health-expenditure).
+
+:::

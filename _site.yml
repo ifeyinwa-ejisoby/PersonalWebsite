@@ -1,9 +1,24 @@
 name: "my-website"
 navbar:
-  title: "My Website"
+  title: "Ifeyinwa's Website"
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+      icon: fa-house-user
+    - text: "Projects"
+      href: projects.html
+      icon: fa-folder-open
+    - text: "Resume"
+      href: files/resume_042726.pdf
+      icon: fa-sim-card
+  right:
+  - href: https://www.linkedin.com/in/ifeyinwa-ejisoby-nwosu-b84b92271/
+    icon: fa-linkedin
+  - href: https://github.com/ifeyinwa-ejisoby
+    icon: fa-github
 output_dir: docs
+output:
+  html_document:
+    theme: cosmo
+    css: style.css
+      
