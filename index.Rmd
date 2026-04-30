@@ -7,8 +7,8 @@ title: "Who Am I?"
 
 ## Ifeyinwa Ejisoby-Nwosu
 
-```{r, echo=FALSE, fig.align='center', out.width='70%'}
-knitr::include_graphics("images/website-image-2.jpg")
+```{r, echo=FALSE, fig.align='center', out.width='80%'}
+knitr::include_graphics("images/website-thesis.jpeg")
 ```
 
 Aspiring biostatistician and data scientist!
