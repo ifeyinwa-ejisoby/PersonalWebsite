@@ -20,7 +20,7 @@ Aspiring biostatistician and data scientist!
 
 Hi there!
 
-I am Ifeyinwa, a biostatistics student at the Rollins School of Public Health of Emory University. Throughout my graduate studies, I have worked on answering health-related questions across infectious diseases, oncology, and psychology using modern regression techniques and causal methods in R and SAS. 
+I am Ifeyinwa, a recent biostatistics graduate from the Rollins School of Public Health of Emory University. Throughout my graduate studies, I have worked on answering health-related questions across infectious diseases, oncology, and psychology using modern regression techniques and causal methods in R and SAS. 
 
 To learn more about my projects, visit my [projects page](https://ifeyinwa-ejisoby.github.io/PersonalWebsite/projects.html).
 
